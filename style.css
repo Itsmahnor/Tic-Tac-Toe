@@ -149,9 +149,9 @@ gap:1rem;
     
     }
 }
-@media (max-width:282px){
+@media (max-width:292px){
     .container h1{
-        font-size: 3rem;
+        font-size: 2rem;
         
     }
 }
