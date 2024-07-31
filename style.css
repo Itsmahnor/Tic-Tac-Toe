@@ -13,6 +13,7 @@ body{
     justify-content: center;
     align-items: center;
 flex-direction: column;
+flex-wrap: wrap;
 gap:3rem;
 color: white;
     
@@ -89,13 +90,13 @@ gap:1rem;
         font-size: 4rem;background-color: white;
         color: black;
         display: flex;
-        flex-wrap: wrap;
+       
         align-items: center;
         justify-content: center;
     }
     .box{
         display: flex;
-        flex-wrap: wrap;
+        
         height:40vh;
     width:40vh; justify-content: center;
         align-items: center;
@@ -116,14 +117,14 @@ gap:1rem;
         margin-left: 2rem;
     }
     #reset {
-        margin-top: 2.5rem;
+        
         padding: 1.5rem;
         font-size: 1.5rem;
         border-radius: 1rem;
     }
 }
 
-@media(max-width:320px){
+@media(max-width:340px){
     .boxes{
         height: 10vh;
         width:10vh;
@@ -146,5 +147,11 @@ gap:1rem;
     
     
     
+    }
+}
+@media (max-width:282px){
+    .container h1{
+        font-size: 3rem;
+        
     }
 }
