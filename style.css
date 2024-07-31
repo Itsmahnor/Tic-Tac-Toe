@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#00203fff;
+}
+.container{
+    /* height:100vh;
+    width:100vw; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+gap:3rem;
+color: white;
+    
+}
+.container h1{
+    font-size: 4rem;
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    height:70vh;
+width:70vh; justify-content: center;
+    align-items: center;
+gap:1rem;
+
+
+
+}
+.boxes{
+    height: 20vh;
+    width:20vh;
+    border-radius: 1rem;
+    border: none;
+    font-size: 7rem;background-color: white;
+    color: black;
+    
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div {
+    height:100vh;
+    width:100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:3rem;
+   
+}
+
+.hide{
+    display: none;
+}
+
+.div button{
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+#para {
+    font-size: 4rem;
+    color:white;
+    
+}
+#reset {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+@media(max-width:520px){
+    .boxes{
+        height: 12vh;
+        width:12vh;
+        border-radius: 1rem;
+        border: none;
+        font-size: 4rem;background-color: white;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        height:40vh;
+    width:40vh; justify-content: center;
+        align-items: center;
+    gap:1rem;
+    
+    
+    
+    }
+    .div button{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+    }
+    
+    #para {
+        font-size: 2.5rem;
+        color:white;
+        margin-left: 2rem;
+    }
+    #reset {
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+    }
+}
+
+@media(max-width:320px){
+    .boxes{
+        height: 10vh;
+        width:10vh;
+        border-radius: 1rem;
+        border: none;
+        font-size: 3rem;background-color: white;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        height:40vh;
+    width:40vh; justify-content: center;
+        align-items: center;
+    gap:1rem;
+    
+    
+    
+    }
+}
